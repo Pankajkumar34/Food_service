@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer components{
+.Main-header{
+    @apply bg-[#838d00]
+}
+
+.vegfood {
+    @apply hover:block
+}
+}
